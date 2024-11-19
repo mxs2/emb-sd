@@ -109,9 +109,22 @@ body {
 /* Concept image styling */
 .concept-img {
   font-style: italic;
-  margin: 10px;
+  margin: 10px auto;
   width: 25%;
   transition: transform var(--transition-duration);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centralize the video section */
+#video {
+  justify-content: center;
+}
+
+#video iframe {
+  display: block;
+  margin: auto;
 }
 
 /* Section styling */

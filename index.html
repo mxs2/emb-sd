@@ -5,24 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentação do Projeto de Sistemas Digitais</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Importação da fonte do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <h1>Documentação do Projeto: Nome do Projeto</h1>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#descricao">Descrição</a></li>
+                <li><a href="#palavras-chave">Palavras-chave</a></li>
+                <li><a href="#autores">Autores</a></li>
+                <li><a href="#componentes">Componentes</a></li>
+                <li><a href="#aplicativos">Aplicativos</a></li>
+                <li><a href="#passo-a-passo">Passo a Passo</a></li>
+                <li><a href="#codigo">Download</a></li>
+                <li><a href="#video">Vídeo</a></li>
+                <li><a href="#problemas">Problemas</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section id="descricao">
-        <h2>Alien Maluco</h2>
-        <p><strong>Motivação:</strong> Pois promove o aprendizado de lógica de programação de maneira lúdica, utilizando
-            uma abordagem prática e interativa.</p>
-        <p><strong>Objetivo:</strong> Ajudar a implementar a lógica de programação no ensino infantil de uma forma
-            dinâmica e interativa.</p>
-        <p><strong>Contextualização:</strong> O dispositivo é um jogo feito para ser jogado com botões de arduino,
-            servindo como diversão, entretenimento e de material educativo.
-        </p>
-
+        <h2>Descrição do Projeto</h2>
+        <p><strong>Motivação:</strong> O projeto visa promover o aprendizado de lógica de programação de forma lúdica,
+            interativa e prática.</p>
+        <p><strong>Objetivo:</strong> Auxiliar na implementação de lógica de programação no ensino infantil de maneira
+            dinâmica e divertida.</p>
+        <p><strong>Contextualização:</strong> O dispositivo é um jogo interativo desenvolvido com Arduino e Pictoblox,
+            utilizando botões para a interação e promovendo o aprendizado de programação através de diversão.</p>
         <h3>Esquema Conceitual</h3>
         <div id="concept-img">
             <img src="./assets/concept.jpg" alt="Esquema Conceitual do Projeto" class="concept-img">
@@ -35,7 +54,6 @@
             <li>Interativo</li>
             <li>Lúdico</li>
             <li>Lógica de programação</li>
-            <!-- Adicionar mais conforme necessário -->
         </ul>
     </section>
 
@@ -43,44 +61,43 @@
         <h2>Autores</h2>
         <div class="autores-grid">
             <div class="autor">
-                <img src="foto1.jpg" alt="Foto do autor 1">
-                <p><strong>Nome do Autor 1</strong></p>
-                <p><a href="https://github.com/autor1" target="_blank">GitHub</a> | <a
-                        href="https://linkedin.com/in/autor1" target="_blank">LinkedIn</a></p>
+                <img src="./assets/squad/foto1.jpg" alt="Foto de Alessandra Barbosa">
+                <p><strong>Alessandra Barbosa</strong></p>
+                <p><a href="https://github.com/alebarbosas" target="_blank">GitHub</a> | <a
+                        href="https://www.linkedin.com/in/alessandra-barbosa-308072323" target="_blank">LinkedIn</a></p>
             </div>
             <div class="autor">
-                <img src="foto2.jpg" alt="Foto do autor 2">
-                <p><strong>Nome do Autor 2</strong></p>
-                <p><a href="https://github.com/autor2" target="_blank">GitHub</a> | <a
-                        href="https://linkedin.com/in/autor2" target="_blank">LinkedIn</a></p>
+                <img src="./assets/squad/foto2.jpg" alt="Foto de Ana Sofia">
+                <p><strong>Ana Sofia</strong></p>
+                <p><a href="https://github.com/Sun-cs-Sol" target="_blank">GitHub</a> | <a
+                        href="https://www.linkedin.com/in/ana-sofia-moura-27b003248" target="_blank">LinkedIn</a></p>
             </div>
             <div class="autor">
-                <img src="foto3.jpg" alt="Foto do autor 3">
-                <p><strong>Nome do Autor 3</strong></p>
-                <p><a href="https://github.com/autor3" target="_blank">GitHub</a> | <a
-                        href="https://linkedin.com/in/autor3" target="_blank">LinkedIn</a></p>
+                <img src="./assets/squad/foto3.jpg" alt="Foto de Camila Maria">
+                <p><strong>Camila Maria</strong></p>
+                <p><a href="https://github.com/camilamta275" target="_blank">GitHub</a> | <a
+                        href="https://www.linkedin.com/in/camilamta275" target="_blank">LinkedIn</a></p>
             </div>
             <div class="autor">
-                <img src="foto4.jpg" alt="Foto do autor 4">
-                <p><strong>Nome do Autor 4</strong></p>
-                <p><a href="https://github.com/autor4" target="_blank">GitHub</a> | <a
-                        href="https://linkedin.com/in/autor4" target="_blank">LinkedIn</a></p>
+                <img src="./assets/squad/foto4.jpg" alt="Foto de Raphael Miranda">
+                <p><strong>Raphael Miranda</strong></p>
+                <p><a href="https://github.com/rapheto" target="_blank">GitHub</a> | <a
+                        href="https://linkedin.com/in/rapheto" target="_blank">LinkedIn</a></p>
             </div>
             <div class="autor">
-                <img src="foto5.jpg" alt="Foto do autor 5">
-                <p><strong>Nome do Autor 5</strong></p>
-                <p><a href="https://github.com/autor5" target="_blank">GitHub</a> | <a
-                        href="https://linkedin.com/in/autor5" target="_blank">LinkedIn</a></p>
+                <img src="./assets/squad/foto5.jpg" alt="Foto de Mateus Xavier">
+                <p><strong>Mateus Xavier</strong></p>
+                <p><a href="https://github.com/mxs2" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/mxs"
+                        target="_blank">LinkedIn</a></p>
             </div>
             <div class="autor">
-                <img src="foto6.jpg" alt="Foto do autor 6">
-                <p><strong>Nome do Autor 6</strong></p>
-                <p><a href="https://github.com/autor6" target="_blank">GitHub</a> | <a
-                        href="https://linkedin.com/in/autor6" target="_blank">LinkedIn</a></p>
+                <img src="./assets/squad/foto6.jpg" alt="Foto de Samuel Araújo">
+                <p><strong>Samuel Araújo</strong></p>
+                <p><a href="https://github.com/iwannaendme" target="_blank">GitHub</a> | <a
+                        href="https://www.linkedin.com/in/samuel-ara%C3%BAjo-6728741aa" target="_blank">LinkedIn</a></p>
             </div>
         </div>
     </section>
-
 
     <section id="componentes">
         <h2>Componentes e Suprimentos</h2>
@@ -99,30 +116,86 @@
         <h2>Aplicativos e Plataforma</h2>
         <ul>
             <li>Pictoblox - Plataforma para programação gráfica baseada em Scratch, com suporte para interação com
-                Arduino e robótica. Código de referência: PBX-001</li>
+                Arduino e robótica.</li>
             <li>Scratch - Aplicativo de programação gráfica voltado para iniciantes, permitindo a criação de animações,
-                jogos e simulações. Código de referência: SCR-002</li>
-            <li>Pictoblox Desktop - Versão para computador do Pictoblox, disponível para Windows e macOS. Código de
-                referência: PBX-DT-003</li>
-            <li>Pictoblox Web - Plataforma online para programação gráfica com funcionalidades de IA e IoT. Código de
-                referência: PBX-WEB-004</li>
+                jogos e simulações.</li>
+            <li>Pictoblox Desktop - Versão para computador do Pictoblox, disponível para Windows e macOS.</li>
+            <li>Pictoblox Web - Plataforma online para programação gráfica com funcionalidades de IA e IoT.</li>
             <li>Scratch Files - Arquivos com extensão .sb3 usados para armazenar projetos de programação no Scratch e
-                Pictoblox. Código de referência: SCRF-005</li>
+                Pictoblox.</li>
         </ul>
     </section>
 
     <section id="passo-a-passo">
-        <h2>Passo a passo</h2>
+        <h2>Passo a Passo</h2>
         <ol>
-            <li>Passo 1: Descrição do primeiro passo <img src="passo1.jpg" alt="Imagem do passo 1"></li>
-            <li>Passo 2: Descrição do segundo passo <img src="passo2.jpg" alt="Imagem do passo 2"></li>
-            <!-- Continue adicionando mais passos -->
+            <li>
+                <strong>Etapa 1: Seleção da placa e conexão</strong>
+                <p>A primeira etapa para criar o Alien Maluco é baixar o PictoBlox no seu computador. Assim que entrar,
+                    temos que selecionar a placa microcontroladora. Para isso, clique em "Board" na barra superior do
+                    programa. Em seguida, busque por "Arduino Uno" e selecione.</p>
+                <p>Para conectar a placa UNO ao programa, clique em "Connect" na barra superior do PictoBlox. Logo após,
+                    selecione a porta serial em que a placa se encontra conectada.</p>
+            </li>
+            <li>
+                <strong>Etapa 2: Configurando o cenário</strong>
+                <p>Como estamos falando de Aliens, então o cenário vai ser no espaço, certo? Vamos inserir um cenário
+                    que se pareça com o espaço sideral. Clique em "Selecionar Cenário".</p>
+                <p>Na aba "Espaço", escolha um cenário de sua preferência, ou selecione seu próprio cenário na aba
+                    "Carregar Cenário".</p>
+                <p>Para selecionar os personagens, basta clicar em "Selecionar Ator". Nessa opção, você pode pesquisar
+                    nas opções do PictoBlox ou carregar do seu computador.</p>
+            </li>
+            <li>
+                <strong>Etapa 3: Seleção dos atores</strong>
+                <p>Para este jogo, precisamos de 3 personagens: a nossa nave espacial, o nosso inimigo e algo para
+                    destruí-lo – as balas espaciais. Você pode fazer upload de seus próprios personagens, pegar da
+                    biblioteca do PictoBlox ou baixar nossos assets.</p>
+            </li>
+            <li>
+                <strong>Etapa 4: Programação do Foguete</strong>
+                <p>O PictoBlox é programado via blocos. Para realizar a programação, basta arrastar os blocos para a
+                    área de script de código e encaixá-los.</p>
+                <p>Na aba "Variáveis", criaremos as variáveis "vida" e "score". A variável "vida" armazenará as chances
+                    do jogador, de modo que se o monstro alcançar a nave, uma vida será perdida. A variável "score"
+                    marcará a quantidade de vezes que o monstro foi atingido.</p>
+                <p>Em seguida, incluímos as leituras dos botões conectados à placa UNO para efetuar a movimentação da
+                    nave e o disparo das balas.</p>
+                <figure>
+                    <img src="CAMINHO/FIGURA_NAVE.jpg" alt="Figura da Programação da Nave">
+                    <figcaption>Figura da Programação da Nave</figcaption>
+                </figure>
+            </li>
+            <li>
+                <strong>Etapa 5: Programação do Monstro</strong>
+                <p>Agora, vamos criar o script do Monstro, de acordo com as figuras abaixo.</p>
+                <figure>
+                    <img src="CAMINHO/FIGURA_MONSTRO.jpg" alt="Figura da Programação do Monstro">
+                    <figcaption>Figura da Programação do Monstro</figcaption>
+                </figure>
+            </li>
+            <li>
+                <strong>Etapa 6: Programando o disparo das balas</strong>
+                <p>Quando o botão de disparo for clicado, um clone de "Bala" será criado. Para isso, inicie o script de
+                    "Bala" com o bloco "Quando eu começar como um clone", e o restante será feito conforme a figura
+                    abaixo.</p>
+                <figure>
+                    <img src="CAMINHO/FIGURA_BALA.jpg" alt="Figura da Programação da Bala">
+                    <figcaption>Figura da Programação da Bala</figcaption>
+                </figure>
+            </li>
+            <li>
+                <strong>Etapa 7: Enviar firmware para a placa UNO</strong>
+                <p>Para fazer o upload do código na placa UNO, clique em "Carregar Firmware", localizado no canto
+                    superior direito do PictoBlox.</p>
+            </li>
         </ol>
+
     </section>
 
     <section id="codigo">
         <h2>Download do Projeto</h2>
-        <p><a href="https://github.com/mxs2/emb-sd" target="_blank" class="btn-download">Scratch files no GitHub</a></p>
+        <p><a href="https://github.com/mxs2/emb-sd/blob/main/project/AlienMaluco.sb3" target="_blank" class="btn-download">Scratch files no GitHub</a></p>
     </section>
 
     <section id="video">
@@ -133,10 +206,9 @@
 
     <section id="problemas">
         <h2>Problemas enfrentados e lições aprendidas</h2>
-        <p><strong>Problemas:</strong> Explique aqui os principais desafios enfrentados, o que deu errado e como foi
+        <p><strong>Problemas:</strong> Explique os principais desafios enfrentados, o que deu errado e como foi
             resolvido.</p>
-        <p><strong>Lições aprendidas:</strong> Destaque as principais lições que a equipe aprendeu durante o projeto.
-        </p>
+        <p><strong>Lições aprendidas:</strong> Destaque as lições aprendidas durante o projeto.</p>
     </section>
 
     <footer>

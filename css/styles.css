@@ -129,6 +129,7 @@ header {
   color: var(--white-color);
   padding: var(--padding);
   text-align: center;
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 /* Navbar Styles */
@@ -265,4 +266,28 @@ h2 {
 h1:hover,
 h2:hover {
   color: var(--secondary-color);
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: var(--padding);
+  text-align: center;
+  border-top: 5px solid var(--secondary-color);
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color var(--transition-duration);
+}
+
+footer a:hover {
+  color: var(--white-color);
 }
